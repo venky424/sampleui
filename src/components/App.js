@@ -1,14 +1,13 @@
 import React from 'react';
-import '../css/App.css';
+import AppHeader from './AppHeader.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       Welcome to my Sample React App
-      </header>
-    </div>
-  );
+class App extends React.Component{
+    render() {
+        return (
+            <div className="AppHeader">
+            <AppHeader></AppHeader>
+            </div>);
+    }
 }
 
 export default App;
