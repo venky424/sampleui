@@ -11,10 +11,10 @@ class AppHeader extends React.Component{
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav variant="pills" className="AppNav">
-                      <Nav.Link href="#home">Home</Nav.Link>
-                      <Nav.Link href="#Categories">Categories</Nav.Link>
-                      <Nav.Link href="#Currencies">Currencies</Nav.Link>
-                      <Nav.Link href="Countries">Countries</Nav.Link>
+                      <Nav.Link href="/">Home</Nav.Link>
+                      <Nav.Link href="/categories">Categories</Nav.Link>
+                      <Nav.Link href="/currencies">Currencies</Nav.Link>
+                      <Nav.Link href="/countries">Countries</Nav.Link>
                   </Nav>
               </Navbar.Collapse>
           </Navbar>
