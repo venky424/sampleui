@@ -1,0 +1,47 @@
+.AppHomeCon1{
+  background-image: url("../images/sampleuibanner3.jpg");
+  height:650px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+  color: whitesmoke;
+  font-family: Verdana;
+
+}
+
+.jumbotronheader{
+  padding-top:300px;
+  padding-left: 20px;
+  font-size: 50px;
+}
+
+.jumbotronpara{
+  padding-left: 20px;
+}
+.jumbotronbutton{
+  margin-left: 20px;
+}
+
+.categoryheader{
+  font-family: "Verdana";
+}
+
+.categorydescr{
+  font-style: italic;
+}
+
+.countriesheader{
+  font-family: "Verdana";
+}
+
+.countriesdescr{
+  font-style: italic;
+}
+
+.currenciesheader{
+  font-family: "Verdana";
+}
+
+.currenciesdescr{
+  font-style: italic;
+}
