@@ -6,7 +6,7 @@ class AppHeader extends React.Component{
   render() {
       return(
           <div>
-          <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+          <Navbar bg="dark" variant="dark" expand="lg" fixed="sticky">
               <Navbar.Brand>
                   <img
                       alt=""
